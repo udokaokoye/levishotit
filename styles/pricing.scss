@@ -1,0 +1,304 @@
+.navcontainer {
+    background: rgb(0, 0, 0);
+  }
+  
+  .pricing_show {
+      width: 100%;
+      height: 50vh;
+      background: url('../Assets/Images/pricing_sho.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100%;
+          color: white;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+  
+          h1 {
+              margin: 0;
+              font-size: 55px;
+              margin-top: 90px;
+          }
+          p {
+              cursor: pointer;
+          }
+  
+      }
+
+  
+  .page_header {
+      text-align: center;
+      font-family: 'Merriweather';
+      font-weight: 200;
+      font-size: 50px;
+      color: #886565;
+      text-transform: capitalize;
+      margin: 0;
+      margin-top: 35px;
+  }
+
+  .pricing_quote {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'roboto';
+    font-weight: 300;
+    line-height: 30px;
+    color: #886565;
+    margin-top: 30px;
+  }
+
+  .pricing_main {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    // flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 60px;
+    padding: 10px;
+
+    .plan_section {
+      width: 30%;
+      height: 100%;
+      // background: red;
+
+      .plan_cover {
+        width: 100%;
+        height: 550px;
+        background: #000;
+        background-position: center !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+      }
+
+      h3 {
+        font-family: 'Merriweather';
+        text-align: center;
+        color: #886565;
+      }
+
+      p {
+        font-family: 'Roboto';
+        font-weight: 200;
+        text-align: center;
+      }
+
+      .plan_price {
+        text-align: center;
+        // font-weight: bold;
+        display: block;
+        text-align: center;
+        font-style: italic;
+      }
+    }
+
+    .plan2 .plan_cover {
+      background: url('https://images.unsplash.com/photo-1592085550638-e6bc180a731e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+    }
+
+    .plan1 .plan_cover {
+      background: url('../Assets/Images/price_wed.jpg');
+    }
+
+    .plan3 .plan_cover {
+      background: url('https://images.unsplash.com/photo-1630850626864-411d18af3f4f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80');
+    }
+  }
+  
+  .pricing_container {
+    width: 90%;
+    height: 85vh;
+    margin: 0 auto;
+  //   background: rgb(251, 251, 251);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    // .off_select{
+        
+    // }
+  
+    .selections {
+      width: 380px;
+      margin-top: 45px;
+    //   width: 20%;
+      height: auto;
+      border: 1px solid rgb(225, 225, 225) ;
+      padding: 10px;
+      border-radius: 7px;
+      box-shadow: 0 0px 19px -9px black;
+      padding: 20px;
+  
+      .plan_title {
+        font-size: 22px;
+      }
+  
+      .use_case {
+        font-size: 12px;
+      }
+  
+      .no_hid_fees {
+        font-size: 12px;
+        display: block;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        font-style: italic;
+      }
+  
+      .serv_price {
+        text-align: center;
+        font-size: 30px;
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 15px;
+      }
+  
+      .plan_details_container {
+        .plan_det {
+          // display: block;
+          margin-bottom: 25px;
+        }
+      }
+  
+      .button_container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  
+        margin-top: 20px;
+  
+        button {
+          width: 70%;
+          height: 50px;
+          background: #000;
+          color: white;
+          border: none;
+          font-size: 16px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .getintouch {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 60px;
+    background-color: transparent;
+    color: #886565;
+    font-family: 'Merriweather';
+    border: 1px solid #886565;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 50px;
+    transition: all 0.3s ease-in-out;
+    margin-top: 25px;
+
+    &:hover {
+      background: #886565;
+      color: white;
+    }
+  }
+
+  .otherServices {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    h1 {
+      font-family: 'Merriweather';
+      font-size: 45px;
+      color: #886565;
+
+    }
+
+    ul li {
+      font-family: 'Roboto';
+      margin-bottom: 20px;
+      font-size: 18px;
+      color: #886565;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
+
+    .pricing_main {
+      display: block;
+      .plan_section {
+        margin: 0 auto;
+        width: 80%;
+
+        margin-bottom: 35px;
+      }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .pricing_main {
+    display: block;
+    .plan_section {
+      width: 100%;
+    }
+  }
+}
+
+
+  
+
+  @media only screen and (max-width: 1110px) {
+        .pricing_quote {
+          width: 90%;
+        }
+  }
+
+  @media only screen and (max-width: 745px) {
+    .pricing_show {
+        background-size: cover;
+    }
+
+
+}
+  
+
+@media only screen and (max-width: 700px) {
+    .pricing_show {
+            h1 {
+                font-size: 35px;
+            }
+
+            p {
+                margin-top: 50px;
+            }
+    }
+
+    .pricing_quote {
+      width: 90%;
+      font-weight: 300;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+
+  .page_header {
+    font-size: 40px;
+    padding: 10px;
+  }
+
+      .otherServices {
+        // display: none;
+        width: 90%;
+        h1 {
+          font-size: 35px;
+        }
+
+        ul {
+          margin: 0;
+        }
+      }
+    
+}

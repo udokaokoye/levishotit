@@ -1,0 +1,198 @@
+.contact_show {
+  width: 100%;
+  height: 50vh;
+  background: url("../Assets/Images/contact_cover.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact_main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contact_main h1 {
+  text-align: center;
+  font-family: 'Merriweather';
+  color: #886565;
+  font-size: 55px;
+  font-weight: 200;
+}
+
+.contact_main p {
+  font-family: 'Roboto';
+  line-height: 30px;
+  font-weight: 200;
+}
+
+.contact_form {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-family: 'Roboto';
+}
+
+.contact_form .message_div {
+  width: 50%;
+  height: 150px;
+  background: green;
+  color: white;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contact_form .fields {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.contact_form .fields .field {
+  width: 45%;
+}
+
+.contact_form .fields .field .label {
+  font-weight: 300;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact_form .fields .field .input input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  font-weight: 200 !important;
+  font-size: 18px;
+}
+
+.contact_form .fields .field .input input:focus {
+  outline: none;
+}
+
+.contact_form .field_solo {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.contact_form .field_solo .label {
+  font-weight: 300;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact_form .field_solo .input input, .contact_form .field_solo textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.contact_form .field_solo .input input:focus, .contact_form .field_solo textarea:focus {
+  outline: none;
+}
+
+.contact_form .field_solo textarea {
+  border: 1px solid #ccc;
+  height: 300px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  padding: 5px;
+}
+
+.contact_form .field_solo textarea:focus {
+  outline: none;
+}
+
+.contact_form button {
+  width: 120px;
+  height: 50px;
+  background-color: #886565;
+  color: white;
+  border: none;
+  font-family: 'Merriweather';
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact_form button:hover {
+  background: transparent;
+  color: #886565;
+  border: 1px solid #886565;
+}
+
+@media only screen and (max-width: 1000px) {
+  .contact_main {
+    width: 80%;
+  }
+  .contact_form {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .contact_main {
+    width: 80%;
+  }
+  .contact_main h1 {
+    font-size: 45px;
+  }
+  .contact_form {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .contact_main {
+    width: 80%;
+  }
+  .contact_main h1 {
+    font-size: 35px;
+  }
+  .contact_form {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contact_form {
+    width: 100%;
+  }
+  .contact_form .message_div {
+    width: 100%;
+  }
+  .contact_form .fields {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact_form .fields .field {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  .contact_form .fields .field textarea {
+    height: 60px;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

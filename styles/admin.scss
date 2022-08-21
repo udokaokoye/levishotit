@@ -1,0 +1,42 @@
+.admin_container {
+    width: 100%;
+    height: 100%;
+
+    .formdiv {
+        width: 50%;
+        height: 100vh;
+        margin: 0 auto;
+        background: rgb(248, 248, 248);
+        border-radius: 10px;
+        padding: 25px;
+
+        h3 {
+            font-family: 'Roboto';
+            font-weight: 200;
+            font-size: 35px;
+        }
+
+        .field {
+            input {
+                width: 400px;
+                height: 50px;
+                background-color: #fff;
+                margin-bottom: 20px;
+                border-radius: 5px;
+                // background-color: transparent;
+                color: black;
+                border: 1px solid black;
+                padding-left: 10px;
+            }
+        }
+
+        button {
+            width: 200px;
+            height: 50px;
+            background: #000;
+            color: #fff;
+            border: 1px solid white;
+            cursor: pointer;
+        }
+    }
+}

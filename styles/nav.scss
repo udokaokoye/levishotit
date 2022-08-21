@@ -1,0 +1,121 @@
+.nav_container {
+  width: 100%;
+  // background: red;
+  position: relative;
+
+  .nav_wrapper {
+    width: 80%;
+    height: 15vh;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // padding-top: 40px;
+
+    .logo {
+      width: fit-content;
+      display: flex;
+      flex-direction: column;
+      span {
+        font-family: "Roboto";
+        font-weight: 100;
+        font-size: 30px;
+
+        &:nth-child(2) {
+          margin-left: 20px;
+        }
+
+        &:last-child {
+          align-self: flex-end;
+        }
+      }
+
+      .logo_odd {
+        font-weight: 500;
+      }
+    }
+
+    .links {
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      span {
+        font-family: "Roboto";
+        // font-weight: bolder;
+        cursor: pointer;
+      }
+    }
+
+    .menu_bar {
+      display: none;
+    }
+  }
+
+  .sidenav {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    // background: url('../Assets/Images/bgg.jpg');
+    background: #fff;
+    color: #000;
+    top: 0;
+
+    .sidenav_wrapper {
+        height: 100%;
+        .header {
+            width: 100%;
+            height: 10%;
+            // background: red;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 30px;
+            padding-right: 30px;
+
+            h3 {
+                font-family: 'Roboto';
+                font-weight: 200;
+                span {
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .links {
+            margin-top: 50px;
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+
+            span {
+                font-weight: bolder;
+                font-family: 'Merriweather';
+                font-size: 22px;
+                color: #886565;
+            }
+        }
+    }
+  }
+}
+
+@media only screen and (max-width: 1165px) {
+  .nav_container {
+    .nav_wrapper {
+      .links {
+        display: none;
+      }
+
+      .menu_bar {
+        display: block;
+        font-size: 22px;
+      }
+    }
+  }
+}

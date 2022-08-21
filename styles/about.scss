@@ -1,0 +1,107 @@
+.about_main {
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 30px;
+
+    .show_image {
+        width: 45%;
+        height: 500px;
+        background: url('https://images.unsplash.com/photo-1510382684496-dda106e3f86a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-family: 'Merriweather';
+        text-align: center;
+        font-size: 54px;
+        margin-top: 60px;
+        color: #886565;
+        font-weight: 200;
+        // text-transform: uppercase;
+    }
+
+    p {
+        width: 50%;
+        margin: 0 auto;
+        text-align: left;
+        font-family: 'Roboto';
+        font-weight: 200;
+        // word-spacing: 10px;
+        line-height: 40px;
+    }
+
+    button {
+        width: 250px;
+        height: 60px;
+        display: block;
+        margin: 0 auto;
+        background-color: transparent;
+        border: 1px solid #886565;
+        color: #886565;
+        margin-top: 30px;
+        font-family: 'Merriweather';
+        font-size: 15px;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            background: #886565;
+            color: white;
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) { 
+
+    .about_main {
+        .show_image {
+            width: 80%;
+        }
+
+        p {
+            width: 80%;
+        }
+    }
+}
+
+@media only screen and (max-width: 817px) { 
+
+    .about_main {
+        .show_image {
+            width: 80%;
+            height: 400px;
+        }
+    }
+}
+
+@media only screen and (max-width: 726px) { 
+
+    .about_main {
+        .show_image {
+            width: 80%;
+            height: 350px;
+        }
+
+        h1 {
+            font-size: 44px;
+        }
+
+        p {
+            font-weight: 300;
+        }
+    }
+}
+
+@media only screen and (max-width: 590px) { 
+
+    .about_main {
+        .show_image {
+            width: 90%;
+            height: 200px;
+        }
+    }
+}
