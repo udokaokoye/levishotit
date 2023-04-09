@@ -1,8 +1,12 @@
 {
+  "/": "pages/index.html",
+  "/admin": "pages/admin.html",
+  "/about": "pages/about.html",
   "/_app": "pages/_app.js",
+  "/contact": "pages/contact.html",
+  "/portfolio": "pages/portfolio.html",
   "/_error": "pages/_error.js",
+  "/pricing": "pages/pricing.html",
   "/_document": "pages/_document.js",
-  "/contact": "pages/contact.js",
-  "/about": "pages/about.js",
-  "/": "pages/index.js"
+  "/404": "pages/404.html"
 }

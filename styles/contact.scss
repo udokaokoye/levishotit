@@ -20,7 +20,7 @@
     // text-transform: capitalize !important;
   }
 
-  p {
+  p, ul {
     font-family: 'Roboto';
     line-height: 30px;
     font-weight: 200;
@@ -36,7 +36,7 @@
     font-family: 'Roboto';
 
     .message_div {
-        width: 50%;
+        width: 100%;
         height:150px;
         background: green;
         color: white;
@@ -44,7 +44,7 @@
         justify-content: center !important;
         align-items: center !important;
         border-radius: 5px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         text-align: center;
     }
     // background: red;

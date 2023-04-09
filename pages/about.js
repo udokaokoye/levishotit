@@ -16,9 +16,14 @@ const about = () => {
 
             <h1>Know Your Photographer</h1>
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut id, odio, similique, necessitatibus alias exercitationem animi vitae autem sapiente molestias recusandae delectus perspiciatis officia a? Vitae distinctio adipisci accusantium officiis animi dolore cumque in molestias facilis repellat facere repudiandae eos laboriosam itaque repellendus quos laborum, placeat dicta eveniet! Fugit animi porro minima vel quos hic, ea aspernatur nisi, delectus tempore molestias atque libero esse in. Facere, rerum. Quaerat vero unde dolorem autem blanditiis maxime adipisci, quae magni itaque molestias. Incidunt accusamus ipsam reiciendis eum ut voluptatibus rem ab quasi, sint dolore omnis aspernatur illum possimus dicta quis! Iste, illo quisquam. Ullam temporibus numquam nihil eaque eius alias accusamus sequi atque odit, at ex nisi error beatae maxime in laborum earum voluptatibus odio minus exercitationem repudiandae voluptatem deserunt, nostrum perspiciatis! Voluptate, libero eveniet? Odit, nisi consequatur illum alias ab sapiente voluptates, eum rem error accusamus perferendis voluptatibus doloremque unde nulla fuga, adipisci doloribus dolore soluta cumque quos pariatur porro? Vel nobis impedit sint aperiam. Consectetur ut error accusantium non vero quo, quam nobis? Error eum quisquam autem similique ducimus corporis minima ut, amet maiores laudantium sequi! Esse dignissimos temporibus aliquid rerum unde perspiciatis.</p>
+            <p> Hey there,  Ever wonder who’s behind the camera? my name is Levi. I have almost 3 years experience in photography. My occupation I’m a Pharmacy Technician and a  freelance photographer and software engineer 
 
-            <button>Send Me A Message!</button>
+I’m currently a freshman at The University Of Cincinnati In a Major of IT (Information Technology).  I’ve alway has the dream of becoming a software engineer for gaogle or Microsoft, I’m still working towards that dream, along the way I realized I had passion for photography and ever since I fell in love with my camera and lenses.
+
+In person I’m kinda chill and love people who light up the environment. Can’t wait to meet you! 
+ </p>
+
+            <a href="/contact"><button>Send Me A Message!</button> </a>
 
             <Socialmedias />
             <Footer />

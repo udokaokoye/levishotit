@@ -4,17 +4,6 @@ const nextConfig = {
 }
 
 module.exports = {
-  module: {
-    rules: [
-      {
-        test: /\.(png|jpe?g|gif|mov|mp4)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-          },
-        ],
-      },
-    ],
-  },
-};
+  trailingSlash: true,
+}
 // module.exports = nextConfig

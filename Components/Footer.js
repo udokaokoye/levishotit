@@ -19,6 +19,7 @@ const Footer = () => {
         </a> */}
 
         <span className='cprgth'><FontAwesomeIcon style={{marginRight: 14}} icon={faCopyright} />2022 Levi Okoye www.levishotit.com</span>
+        <span className='cprgth'>Developed By <a href="http://udokaokoye.com" target="_blank" style={{textDecoration: 'underline'}}> Levi Okoye</a></span>
     </div>
   )
 }

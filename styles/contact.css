@@ -20,7 +20,7 @@
   font-weight: 200;
 }
 
-.contact_main p {
+.contact_main p, .contact_main ul {
   font-family: 'Roboto';
   line-height: 30px;
   font-weight: 200;
@@ -36,7 +36,7 @@
 }
 
 .contact_form .message_div {
-  width: 50%;
+  width: 100%;
   height: 150px;
   background: green;
   color: white;
@@ -47,7 +47,7 @@
       -ms-flex-align: center !important;
           align-items: center !important;
   border-radius: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   text-align: center;
 }
 

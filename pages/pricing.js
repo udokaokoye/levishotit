@@ -17,7 +17,7 @@ const pricing = () => {
       </div>
 
       <h1 id="pricing" className="page_header">Change your lens, change your story.</h1>
-      <p className="pricing_quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores repellendus accusamus dolore blanditiis provident nihil ullam saepe neque. Dignissimos aperiam odio labore qui eos, esse eveniet corrupti expedita unde culpa corporis impedit, consectetur facilis iusto laborum cumque beatae? Qui autem quo ea deleniti esse, harum iure, ducimus culpa fugiat, asperiores blanditiis exercitationem incidunt tempore eligendi minima sint fugit nihil. Iure, quaerat ipsa adipisci nesciunt soluta explicabo placeat aut! Soluta exercitationem explicabo doloribus officia voluptatum ducimus vero consequuntur, aperiam eos quia eius quis fugit, rem velit ab reprehenderit laborum et magnam error odit omnis! Modi totam voluptas, dolore nisi excepturi eum!</p>
+      <p className="pricing_quote">Your special moment happen just once, having the right photo at a particular moment can mean a lot. We take care of that for you, we capture hose memories ha will las forever. Listed below are plans that have been arranged to suit your needs fro your special events. Feel free to request additional service, that’s why we are here, reach out!</p>
 
 
       <div className="pricing_main">
@@ -49,7 +49,7 @@ const pricing = () => {
         </div>
       </div>
 
-      <button className="getintouch">Get In Touch!</button>
+     <a href="/contact"><button className="getintouch">Get In Touch!</button></a>
 
       <div className="otherServices">
         <h1>Other Services</h1>

@@ -65,7 +65,12 @@ const contact = () => {
         <div className="contact_main">
           <h1>Let's Make This Happen!</h1>
 
-          <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ipsa obcaecati enim aspernatur quia praesentium reiciendis minus quas facilis, veniam et earum. Sint, culpa, quia reprehenderit repellat repudiandae consequuntur mollitia facilis sequi adipisci unde numquam minima velit error similique ipsa quod nisi quibusdam. Necessitatibus voluptatum vel earum ex magnam impedit, velit vero iusto commodi maxime? Nesciunt excepturi nulla esse quibusdam dolorem, a obcaecati vero nemo, saepe eos ut quam, accusantium voluptas iste optio corrupti aut quisquam? Laboriosam alias illum odit dolorum cupiditate in assumenda totam? Officiis quasi magni reprehenderit a quo? Doloribus dolorum quisquam quo cum earum velit illo non? consectetur adipisicing elit. Tempora ut ad vitae odio facere commodi itaque harum laborum dolorem. Commodi, vel eius quibusdam ipsum quasi dolorum, qui, id ducimus aliquid earum cupiditate. Vel aut quam dolore, laborum veritatis accusantium commodi. Dolores explicabo nihil aliquid esse molestiae quasi pariatur autem quidem!</p>
+          <p>Take the first step by leaving me a message. Ensure to fill out the form. Filling the form helps me to communicate with you better either on phone or via zoom. The key to every successful service is great communication. With great communication between both parties will result in GREAT PHOTOS!</p>
+          <ul>
+            <li> I respond within 4 hours </li>
+            <li> We setup a meeting, in person, phone call or via zoom </li>
+            <li> I ask a few question and we come to conclusion. Bam! We all set.</li>
+          </ul>
 
           <div className="contact_form">
             <div style={{display: messagediv ? 'flex' : 'none'}} className="message_div">

@@ -93,23 +93,26 @@ export default function Home() {
       </div>
 
       <div className="mini_portfolio">
-       <a href="https://levishotit.pixieset.com/weddingphotography/" target="_blank"><div className="mini_port">
+        <div className="mini_port">
+       <a href="https://levishotit.pixieset.com/weddingphotography/" target="_blank">
           <div className="mini_cover mini_cover1"></div>
           <span className="mini_decs">Boat Cruise, San Juan . Puerto Rico</span>
-        </div>
         </a> 
+        </div>
 
-        <a href="https://levishotit.pixieset.com/jaqulineandstephene/" target="_blank"><div className="mini_port">
+          <div className="mini_port">
+        <a href="https://levishotit.pixieset.com/jaqulineandstephene/" target="_blank">
           <div className="mini_cover mini_cover2"></div>
           <span className="mini_decs">Jaqueline & Stephen . San Juan, Puerto Rico</span>
-        </div>
         </a>
+        </div>
 
-       <a href="https://levishotit.pixieset.com/jaqulineandstephene/" target="_blank" ><div className="mini_port">
+        <div className="mini_port">
+       <a href="https://levishotit.pixieset.com/jaqulineandstephene/" target="_blank" >
           <div className="mini_cover mini_cover3"></div>
           <span className="mini_decs">Wedding Reception . San Juan, Puerto Rico</span>
-        </div>
         </a> 
+        </div>
 
         <div className="mini_port">
           <div className="mini_cover mini_cover4"></div>
@@ -139,7 +142,14 @@ export default function Home() {
         <div className="mod_card">
           <div className="text_area">
             <h1>Let Us Capture Those Memories That Will Last Forever</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem quod incidunt sapiente nihil excepturi cum illo ullam earum dolores repellendus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, incidunt debitis. Ullam asperiores harum facilis at vitae veniam vel atque sequi. Veniam ipsum voluptas quia recusandae. Ullam possimus et accusamus assumenda quas autem? Sit debitis assumenda cum, veniam velit sapiente similique error architecto deleniti omnis inventore et soluta, nulla cumque.</p>
+            <p>Because of you. I have leamed to love deeper than I thought possible.
+I find myself daydreaming of you when we are apart. When we are together, I just want to be with you, holding your hand, snuggling on the
+couch, or even just watching you sleep. I never thought a love like this was possible, until now.
+All because of you.
+ -Brad Tumbull
+
+</p>
+<p>Are you ready for your special moment?</p>
 
             <a href="/contact"><button>I'm Ready!</button></a>
           </div>
@@ -149,83 +159,6 @@ export default function Home() {
 
         <Socialmedias />
 
-      <div className="services">
-        <div data-aos="fade-down" data-aos-duration="500" className="services_intro">SERVICES</div>
-
-        <div className="services_inner">
-          <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100" className="service1 service">
-            <div className="overlay">
-              <h3>
-                Portrait <br /> Photography{" "}
-              </h3>
-              <a href="/#contact"><button>Book This Service</button></a>
-            </div>
-          </div>
-          <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="500" className="service2 service">
-            <div className="overlay">
-              <h3>
-                Wedding <br /> Photography{" "}
-              </h3>
-              <a href="#contact"><button>Book This Service</button></a>
-            </div>
-          </div>
-          <div data-aos="zoom-in" data-aos-duration="500" data-aos-delay="1000" className="service3 service">
-            <div className="overlay">
-              <h3>
-                Casual <br /> Photography{" "}
-              </h3>
-              <a href="#contact"><button>Book This Service</button></a>
-            </div>
-          </div>
-        </div>
-
-        <div className="other_ser">
-          {" "}
-          <FontAwesomeIcon icon={faArrowRight} /> <span>Other Services</span>
-        </div>
-      </div>
-
-      <div id="about" className="about_me">
-        <div className="about_intro">About Me</div>
-
-        <div className="about_inner">
-          <div className="about_prot"></div>
-          <div className="social_links_mid">
-            <a target="_blank" href="https://www.instagram.com/levishotit_/"><FontAwesomeIcon className="icn" icon={faInstagram} /></a> 
-            <a target="_blank" href="https://www.instagram.com/levishotit_/"><FontAwesomeIcon className="icn" icon={faFacebook} /></a>
-            <a target="_blank" href="https://twitter.com/levi_dev_"><FontAwesomeIcon className="icn" icon={faTwitterSquare} /></a>
-            <a target="_blank" href="https://dribbble.com/okoyeudoka"><FontAwesomeIcon className="icn" icon={faDribbble} /></a>
-            <a target="_blank" href="https://www.behance.net/udokaokoye"><FontAwesomeIcon className="icn" icon={faBehance} /></a>
-          </div>
-          <div className="about_txt">
-            <div className="about_respons_img"></div>
-            <p>
-              Thank you very much. You have indeed smelled it often! No, to do
-              this from the nat us of the present just results in the most
-              worthy of things harsher to provide for them further but to
-              obtain, for anyone to endure, the accusers greater times of pain.
-              He will rebuke the discoverer himself, but he will reprove the
-              acquirer, for the trouble of his pleasure is not to be paid for by
-              reason of them, and the pleasure of him, when I open the door,
-              will follow what is rat. She was born! The customer himself, the
-              customer is a lot of money. To do, therefore, in time to come. And
-              with a wise free man, none more harsh than those who repulse his
-              accusers, he succeeds in solving the truth in every way. Whatever
-              times I open to the inventor, let her be freed for the services
-              that we can do, and she repels the most worthy of her
-              consequences, no one knows how to please the architect of
-              sufferings. For there are those who praise the mind of those who
-              receive the troubles of the present, and hinders those who are
-              worthy to flee from those pleasures, but repels them. Do they not
-              know the consequences of refusing them? What is their pleasure! By
-              labor itself, when it is accomplished, it is brought forth whence
-              that which is not so. Or we can, he criticizes the harshness of
-              the clear desert will happen, we lead the resilience often blinded
-              as if they provide! The pleasure of refusing to endure nothing is
-            </p>
-          </div>
-        </div>
-      </div>
 
 
 
