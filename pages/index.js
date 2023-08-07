@@ -93,6 +93,14 @@ export default function Home() {
       </div>
 
       <div className="mini_portfolio">
+
+        <div className="mini_port">
+       <a href="https://levishotit.pixieset.com/alexokoyesgraduationparty/" target="_blank">
+          <div className="mini_cover mini_cover7"></div>
+          <span className="mini_decs">Alex's Grad Party, Cincinnati . Ohio</span>
+        </a> 
+        </div>
+
         <div className="mini_port">
        <a href="https://levishotit.pixieset.com/weddingphotography/" target="_blank">
           <div className="mini_cover mini_cover1"></div>
@@ -107,12 +115,6 @@ export default function Home() {
         </a>
         </div>
 
-        <div className="mini_port">
-       <a href="https://levishotit.pixieset.com/jaqulineandstephene/" target="_blank" >
-          <div className="mini_cover mini_cover3"></div>
-          <span className="mini_decs">Wedding Reception . San Juan, Puerto Rico</span>
-        </a> 
-        </div>
 
         <div className="mini_port">
           <div className="mini_cover mini_cover4"></div>

@@ -25,6 +25,14 @@ const portfolio = () => {
 
     <div id='portfolio_sec' className="portfolio_section">
       <div className="portfolio_wrapper">
+      <div className="portfolio portfolio_4">
+            <div className="port_overlay">
+              <h3 className="portfolio_title">Alex's Grad Party</h3>
+              <p className="portfolio_date">08 / 05 / 2023</p>
+              <p className="portfolio_location"> <FontAwesomeIcon icon={faMapMarkerAlt} /> Cincinati, Ohio</p>
+              <a href="https://levishotit.pixieset.com/alexokoyesgraduationparty/" target="_blank"><button>View Gallery</button></a>
+            </div>
+        </div>
         <div className="portfolio portfolio_1">
             <div className="port_overlay">
               <h3 className="portfolio_title">Boat Cruise</h3>

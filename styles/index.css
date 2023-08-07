@@ -12,18 +12,15 @@
   background-position: center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-
 .showcase_container .showcase_main {
   width: 100%;
   height: 84vh;
   padding: 50px;
 }
-
 .showcase_container .showcase_main .bold_text {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -34,24 +31,14 @@
 .mini_portfolio {
   max-width: 1000px;
   height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
   margin: 0 auto;
-  position: -webkit-sticky;
   position: sticky;
   margin-top: 60px;
 }
-
 .mini_portfolio .mini_port {
   width: 300px;
   height: 250px;
@@ -59,7 +46,6 @@
   text-align: center;
   font-weight: lighter;
 }
-
 .mini_portfolio .mini_port .mini_cover {
   height: 80%;
   width: 100% !important;
@@ -68,33 +54,29 @@
   background-size: cover !important;
   background-repeat: no-repeat !important;
 }
-
 .mini_portfolio .mini_port .mini_cover1 {
   background: url("https://i.ibb.co/3yQVH4D/IMG-2047.jpg");
 }
-
 .mini_portfolio .mini_port .mini_cover2 {
   background: url("https://images.unsplash.com/photo-1660528682188-1622cdac5896?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
 }
-
 .mini_portfolio .mini_port .mini_cover3 {
   background: url("https://images.unsplash.com/photo-1660528682201-6bc3b7173654?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
 }
-
 .mini_portfolio .mini_port .mini_cover4 {
   background: url("https://images.unsplash.com/photo-1609427227397-9690e467f667?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
 }
-
 .mini_portfolio .mini_port .mini_cover5 {
   background: url("https://images.unsplash.com/photo-1545506475-1175e38cd8b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
 }
-
 .mini_portfolio .mini_port .mini_cover6 {
   background: url("https://images.unsplash.com/photo-1625038032515-308ab14d10b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
 }
-
+.mini_portfolio .mini_port .mini_cover7 {
+  background: url("https://scriblo.s3.us-east-2.amazonaws.com/demo/Dozie_Grad-097.jpg");
+}
 .mini_portfolio .mini_port .mini_decs {
-  font-family: 'merriweather';
+  font-family: "merriweather";
   font-weight: 300 !important;
   font-size: 13px;
   display: block;
@@ -104,31 +86,22 @@
 
 .view_more_gallery {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .view_more_gallery button {
   width: 300px;
   height: 60px;
   background-color: transparent;
   border: 1px solid #886565;
   color: #886565;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-weight: bold;
   font-size: 15px;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-
 .view_more_gallery button:hover {
   background: #886565;
   color: white;
@@ -140,39 +113,29 @@
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  justify-content: center;
+  align-items: flex-start;
   overflow-y: hidden;
 }
-
 .mod_card .text_area {
   width: 40%;
   height: 100%;
   background: #FBF5F1;
 }
-
 .mod_card .text_area h1 {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   text-align: center;
   color: #666666;
   padding: 5px;
 }
-
 .mod_card .text_area p {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 200;
   line-height: 30px;
   padding: 20px;
   color: #666666;
 }
-
 .mod_card .text_area button {
   width: 220px;
   height: 50px;
@@ -181,16 +144,13 @@
   background-color: transparent;
   border: 1px solid #b6b6b6;
   color: #414141;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   cursor: pointer;
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-
 .mod_card .text_area button:hover {
   background-color: #f2e3d9;
 }
-
 .mod_card .card_cover {
   width: 50%;
   height: 90%;
@@ -198,9 +158,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
 
 .services {
@@ -209,47 +167,35 @@
   display: none;
   background: #fff;
 }
-
 .services .services_intro {
   text-align: center;
   padding: 50px;
   font-size: 50px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 300;
 }
-
 .services .services_inner {
   width: 90%;
   height: 70%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  justify-content: space-between;
+  align-items: flex-start;
 }
-
 .services .services_inner .service {
   width: 31%;
   height: 100%;
   position: relative;
   cursor: pointer;
 }
-
 .services .services_inner .service .overlay {
   width: 100%;
   height: inherit;
   position: absolute;
   background: rgba(0, 0, 0, 0.453);
   opacity: 0;
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-
 .services .services_inner .service .overlay h3 {
   text-align: center;
   font-size: 60px;
@@ -257,7 +203,6 @@
   color: white;
   margin-top: 150px;
 }
-
 .services .services_inner .service .overlay button {
   width: 50%;
   height: 50px;
@@ -269,96 +214,73 @@
   font-weight: bold;
   color: black;
   cursor: pointer;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
 .services .services_inner .service .overlay button:hover {
   background-color: transparent;
   color: white;
 }
-
 .services .services_inner .service .overlay:hover {
   opacity: 1;
 }
-
 .services .services_inner .service1 {
   background: url("../Assets/Images/protrait.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-
 .services .services_inner .service1:hover {
   background: url("../Assets/Images/protrait2.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .services .services_inner .service2 {
   background: url("../Assets/Images/wedding.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-
 .services .services_inner .service2:hover {
   background: url("../Assets/Images/wedding2.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .services .services_inner .service3 {
   background: url("../Assets/Images/casual.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-
 .services .services_inner .service3:hover {
   background: url("../Assets/Images/casual2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .services .other_ser {
   margin-left: 5%;
   margin-top: 30px;
   border: 1px solid white;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   height: 70px;
   width: 250px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-size: 22px;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-
 .services .other_ser:hover {
   background: #fff;
   color: black;
 }
-
 .services .other_ser span {
   margin-left: 10px;
 }
@@ -369,32 +291,23 @@
   display: none;
   background: #fff;
 }
-
 .about_me .about_intro {
   height: 10%;
   text-align: center;
   padding: 50px;
   font-size: 50px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 200;
   margin-bottom: 50px;
 }
-
 .about_me .about_inner {
   width: 90%;
   height: 80%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  justify-content: space-between;
+  align-items: flex-start;
 }
-
 .about_me .about_inner .about_prot {
   width: 30%;
   height: 90%;
@@ -403,42 +316,29 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .about_me .about_inner .social_links_mid {
   width: 10%;
   height: 90%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
-
 .about_me .about_inner .social_links_mid .icn {
   font-size: 35px;
   cursor: pointer;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-
 .about_me .about_inner .social_links_mid .icn:hover {
   color: #ccc;
   margin-top: 25px;
 }
-
 .about_me .about_inner .about_txt {
   width: 50%;
   height: 90%;
   font-size: 18px;
   line-height: 36px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 200;
 }
 
@@ -447,39 +347,33 @@
   display: none;
   padding-bottom: 100px;
 }
-
 .contact .contact_inner {
   margin: 0 auto;
   width: 50%;
 }
-
 .contact h1 {
   margin: 0;
   text-align: center;
   font-size: 60px;
   text-transform: uppercase;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
-
 .contact h3 {
   text-align: right;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 30px;
   font-weight: 200;
 }
-
 .contact span {
   display: block;
 }
-
 .contact .cnt_inf {
   display: block;
   text-align: right;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 200;
   margin-bottom: 15px;
 }
-
 .contact .messeage_div {
   width: 100%;
   height: 150px;
@@ -487,50 +381,39 @@
   margin-bottom: 50px;
   border-radius: 10px;
   color: white;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .contact .formdiv {
   width: 50%;
 }
-
 .contact .formdiv .field {
   margin-bottom: 25px;
 }
-
 .contact .formdiv .field span {
   margin-bottom: 10px;
   font-weight: 400;
   font-size: 22px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
-
 .contact .formdiv .field input, .contact .formdiv .field select {
   width: 100%;
   border: none;
-  border-bottom: 1px solid #c9c9c9;
+  border-bottom: 1px solid rgb(201, 201, 201);
   background: transparent;
   padding-top: 10px;
   padding-bottom: 10px;
-  -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-
 .contact .formdiv .field input:focus, .contact .formdiv .field select:focus {
   outline: none;
 }
-
 .contact .formdiv .sub_frm {
   width: 100%;
   height: 50px;
   background: #000;
   color: white;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 18px;
   font-weight: bold;
   border: transparent;
@@ -547,16 +430,9 @@
   }
   .mod_card {
     height: auto;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .mod_card .text_area {
     width: 100%;
@@ -566,7 +442,6 @@
     height: 500px;
   }
 }
-
 @media only screen and (max-width: 840px) {
   .mini_portfolio {
     max-width: 600px;
@@ -589,7 +464,6 @@
     height: 500px;
   }
 }
-
 @media only screen and (max-width: 628px) {
   .mini_portfolio {
     max-width: 500px;
@@ -600,7 +474,6 @@
     margin-bottom: 20px;
   }
 }
-
 @media only screen and (max-width: 518px) {
   .mini_portfolio {
     max-width: 400px;
@@ -619,7 +492,6 @@
     height: 500px;
   }
 }
-
 @media only screen and (max-width: 418px) {
   .mini_portfolio {
     max-width: 380px;
@@ -629,19 +501,16 @@
     height: 240px;
   }
 }
-
 @media only screen and (max-width: 1448px) {
   .mod_card {
     width: 80%;
   }
 }
-
 @media only screen and (max-width: 1243px) {
   .mod_card {
     width: 100%;
   }
 }
-
 @media only screen and (max-width: 1340px) {
   .main_container .services .services_inner .service .overlay h3 {
     font-size: 50px;
@@ -650,7 +519,6 @@
     width: 80%;
   }
 }
-
 @media only screen and (max-width: 1055px) {
   .main_container .services {
     height: auto;
@@ -675,9 +543,7 @@
     margin-bottom: 50px;
   }
   .main_container .about_me .about_inner {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .main_container .about_me .about_inner .about_prot {
     display: none;
@@ -697,7 +563,6 @@
     background-repeat: no-repeat;
   }
 }
-
 @media only screen and (max-width: 1055px) {
   .contact .contact_inner {
     width: 90%;
@@ -709,7 +574,6 @@
     width: 70%;
   }
 }
-
 @media only screen and (max-width: 699px) {
   .about_inner .about_txt {
     font-weight: 300 !important;
@@ -724,7 +588,6 @@
     width: 100%;
   }
 }
-
 @media only screen and (max-width: 450px) {
   .main_container .services .services_inner .service .overlay h3 {
     font-size: 40px;
@@ -736,10 +599,8 @@
     height: 400px;
   }
 }
-
 @media only screen and (max-width: 463PX) {
   .main_container .showcase_container .showcase_main .bold_text {
     font-size: 10vh;
   }
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

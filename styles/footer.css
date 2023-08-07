@@ -1,71 +1,43 @@
 .footer_cont {
   width: 100%;
   height: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 50px;
   margin-bottom: 10px;
 }
-
 .footer_cont .socialtag {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-weight: 200;
   word-spacing: 7px;
   margin-bottom: 25px;
   font-size: 12px;
 }
-
 .footer_cont .ft_links {
   width: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
   font-size: 12px;
 }
-
 .footer_cont .ft_links a {
   text-transform: capitalize;
 }
-
 .footer_cont .bt {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: 20px;
   cursor: pointer;
 }
-
 .footer_cont .bt span {
   margin-top: 20px;
 }
-
 .footer_cont .cprgth {
   font-weight: 300;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   margin-top: 50px;
   letter-spacing: 5px;
   font-size: 12px;
@@ -74,34 +46,23 @@
 .socialmedia {
   margin-top: 80px;
 }
-
 .socialmedia hr {
   width: 80%;
 }
-
 .socialmedia .social_links {
   width: 30%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
   padding: 20px;
 }
-
 .socialmedia .social_links .social_icn {
   font-size: 30px;
   color: #636363;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-
 .socialmedia .social_links .social_icn:hover {
   color: black;
 }
@@ -114,7 +75,6 @@
     width: 50%;
   }
 }
-
 @media only screen and (max-width: 840px) {
   .footer_cont .ft_links {
     width: 70%;
@@ -123,7 +83,6 @@
     width: 70%;
   }
 }
-
 @media only screen and (max-width: 700px) {
   .footer_cont .ft_links {
     width: 80%;
@@ -132,7 +91,6 @@
     width: 80%;
   }
 }
-
 @media only screen and (max-width: 600px) {
   .footer_cont .ft_links {
     width: 100%;
@@ -141,11 +99,9 @@
     width: 100%;
   }
 }
-
 @media only screen and (max-width: 530px) {
   .footer_cont .cprgth {
     font-size: 80%;
     letter-spacing: 3px;
   }
-}
-/*# sourceMappingURL=footer.css.map */
+}/*# sourceMappingURL=footer.css.map */

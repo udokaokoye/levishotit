@@ -65,7 +65,7 @@ const contact = () => {
         <div className="contact_main">
           <h1>Let's Make This Happen!</h1>
 
-          <p>Take the first step by leaving me a message. Ensure to fill out the form. Filling the form helps me to communicate with you better either on phone or via zoom. The key to every successful service is great communication. With great communication between both parties will result in GREAT PHOTOS!</p>
+          <p>Let's take the first step towards capturing some amazing moments together! Please take a moment to fill out the form below. By providing your information, we can communicate better, either via phone or Zoom. Remember, the key to a successful photoshoot is excellent communication. When we understand each other's needs and ideas, we can create great photos!</p>
           <ul>
             <li> I respond within 4 hours </li>
             <li> We setup a meeting, in person, phone call or via zoom </li>

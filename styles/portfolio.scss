@@ -71,8 +71,9 @@
     // background: red;
     padding: 10px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 50px;
 
     .portfolio {
       width: 30%;
@@ -144,6 +145,14 @@
 
     .portfolio_3 {
       background: url('https://images.unsplash.com/photo-1660528682209-cf7d403c2613?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+
+    .portfolio_4 {
+      background: url('https://scriblo.s3.us-east-2.amazonaws.com/demo/Dozie_Grad-097.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;

@@ -17,7 +17,7 @@ const pricing = () => {
       </div>
 
       <h1 id="pricing" className="page_header">Change your lens, change your story.</h1>
-      <p className="pricing_quote">Your special moment happen just once, having the right photo at a particular moment can mean a lot. We take care of that for you, we capture hose memories ha will las forever. Listed below are plans that have been arranged to suit your needs fro your special events. Feel free to request additional service, that’s why we are here, reach out!</p>
+      <p className="pricing_quote">Your special moments happen just once, and having the right photo at a particular moment can mean a lot. We take care of that for you by capturing those memories that will last forever. Below are plans arranged to suit your needs for your special events. Feel free to request additional services; that's why we are here - to cater to your preferences and make your experience truly memorable. Don't hesitate to reach out!</p>
 
 
       <div className="pricing_main">
@@ -25,7 +25,7 @@ const pricing = () => {
           <div className="plan_cover"></div>
 
           <h3>Weddings</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsum quas illum assumenda. Cupiditate saepe voluptatibus amet hic? Cum, quibusdam.</p>
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsum quas illum assumenda. Cupiditate saepe voluptatibus amet hic? Cum, quibusdam.</p> */}
 
           <span className="plan_price"> starts from $1200</span>
         </div>
@@ -34,7 +34,7 @@ const pricing = () => {
           <div className="plan_cover"></div>
 
           <h3>Graduations</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsum quas illum assumenda. Cupiditate saepe voluptatibus amet hic? Cum, quibusdam.</p>
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsum quas illum assumenda. Cupiditate saepe voluptatibus amet hic? Cum, quibusdam.</p> */}
 
           <span className="plan_price"> starts from $300</span>
         </div>
@@ -43,7 +43,7 @@ const pricing = () => {
           <div className="plan_cover"></div>
 
           <h3>Portraits</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsum quas illum assumenda. Cupiditate saepe voluptatibus amet hic? Cum, quibusdam.</p>
+          {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsum quas illum assumenda. Cupiditate saepe voluptatibus amet hic? Cum, quibusdam.</p> */}
 
           <span className="plan_price">starts from $500</span>
         </div>

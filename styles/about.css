@@ -3,7 +3,6 @@
   height: auto;
   margin-bottom: 30px;
 }
-
 .about_main .show_image {
   width: 45%;
   height: 500px;
@@ -13,25 +12,22 @@
   background-repeat: no-repeat;
   margin: 0 auto;
 }
-
 .about_main h1 {
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   text-align: center;
   font-size: 54px;
   margin-top: 60px;
   color: #886565;
   font-weight: 200;
 }
-
 .about_main p {
   width: 50%;
   margin: 0 auto;
   text-align: left;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 200;
   line-height: 40px;
 }
-
 .about_main button {
   width: 250px;
   height: 60px;
@@ -41,13 +37,11 @@
   border: 1px solid #886565;
   color: #886565;
   margin-top: 30px;
-  font-family: 'Merriweather';
+  font-family: "Merriweather";
   font-size: 15px;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-
 .about_main button:hover {
   background: #886565;
   color: white;
@@ -61,14 +55,12 @@
     width: 80%;
   }
 }
-
 @media only screen and (max-width: 817px) {
   .about_main .show_image {
     width: 80%;
     height: 400px;
   }
 }
-
 @media only screen and (max-width: 726px) {
   .about_main .show_image {
     width: 80%;
@@ -81,11 +73,9 @@
     font-weight: 300;
   }
 }
-
 @media only screen and (max-width: 590px) {
   .about_main .show_image {
     width: 90%;
     height: 200px;
   }
-}
-/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=about.css.map */

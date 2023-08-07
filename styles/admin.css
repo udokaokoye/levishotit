@@ -2,22 +2,19 @@
   width: 100%;
   height: 100%;
 }
-
 .admin_container .formdiv {
   width: 50%;
   height: 100vh;
   margin: 0 auto;
-  background: #f8f8f8;
+  background: rgb(248, 248, 248);
   border-radius: 10px;
   padding: 25px;
 }
-
 .admin_container .formdiv h3 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 200;
   font-size: 35px;
 }
-
 .admin_container .formdiv .field input {
   width: 400px;
   height: 50px;
@@ -28,7 +25,6 @@
   border: 1px solid black;
   padding-left: 10px;
 }
-
 .admin_container .formdiv button {
   width: 200px;
   height: 50px;
@@ -36,5 +32,4 @@
   color: #fff;
   border: 1px solid white;
   cursor: pointer;
-}
-/*# sourceMappingURL=admin.css.map */
+}/*# sourceMappingURL=admin.css.map */
